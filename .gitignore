@@ -1,16 +1,38 @@
-# Byte-compiled / optimized / DLL files
+# ==========================================
+# Python Byte-compiled & Optimized Files
+# ==========================================
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 
-# Environments
+# ==========================================
+# Virtual Environments (Trailing slashes fixed)
+# ==========================================
 .env
-.venv
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
 
-# Logs
+# ==========================================
+# Local Databases & States (Protects your JSON files)
+# ==========================================
+redis_data/
+*.json
+*.JSON
+
+# ==========================================
+# OS, Systemd & System Configuration Files
+# ==========================================
+translatorbot.service
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Logs & Scratchpads
+# ==========================================
+*.log
 kingbot.log
